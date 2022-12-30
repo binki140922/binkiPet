@@ -8,5 +8,6 @@ public class FirstTest {
     void oneTest() {
         boolean result = 1==1;
         System.out.println(result);
+        System.out.println("add second test");
     }
 }
