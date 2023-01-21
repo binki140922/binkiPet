@@ -55,17 +55,15 @@ public class TestJava {
         
         list.forEach(System.out::println);
 
-        System.out.println("Переполнение");
-        System.out.println(b + 1);
-        System.out.println(b2 - 1);
-        System.out.println(l + 1);
-        System.out.println(l2 -1);
+        System.out.println("\nПереполнение");
+        System.out.println("Byte в плюс" + ++b);
+        System.out.println("Byte в минус" + --b2);
+        System.out.println("Long в плюс" + ++l);
+        System.out.println("Long в минус" + --l2);
 
+        System.out.println("\nРазные типы");
         double d3 = 100.10;
         int i3 = 10;
-
-        double d4 = d3 / i3;
-
-        System.out.println(d4);
+        System.out.println(d3 / i3);
     }
 }
