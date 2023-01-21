@@ -1,4 +1,4 @@
-package test;
+package org.example;
 
 import org.xml.sax.ext.Locator2;
 
